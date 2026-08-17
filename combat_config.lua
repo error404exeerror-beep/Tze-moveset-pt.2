@@ -1,0 +1,23 @@
+-- ⚡ Combat Skill Config | Delta Executor
+-- TIP: ENABLE SHIFT LOCK TO ROTATE WHILE FLYING
+-- Fully compatible with Delta Executor ✅
+
+-- ⚙️ MAIN SETTINGS
+getgenv().LockOnHitboxSize = 128          -- Lock-on detection size (Vector3 scale)
+getgenv().M1ChargeSize = 128              -- M1 charge radius (RECOMMEND ≤128)
+getgenv().ButtonToGoSuper = true          -- Only activate super via menu button
+getgenv().M1OnlyChargeAtLockedOn = true   -- Charge ONLY at locked target (still in range!)
+
+-- 🏷️ SKILL NAMES (Customize as you like)
+getgenv()["Lightning Beatdown"] = "Lightning Beatdown"
+getgenv()["Electric Orb"] = "Electric Orb"
+
+-- ⌨️ KEYBINDS (Case-sensitive!)
+getgenv().ToggleFly = "e"       -- ← MUST be lowercase
+getgenv().Boost = "Q"           -- ← UPPERCASE recommended
+getgenv().ToggleLockOn = "R"    -- ← UPPERCASE recommended
+
+-- ✅ LOADED SUCCESSFULLY
+print("✅ Combat Config loaded | Delta Executor")
+print("🎮 Fly: e | Boost: Q | LockOn: R")
+
